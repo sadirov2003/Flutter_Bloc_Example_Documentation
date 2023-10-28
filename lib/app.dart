@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc_example_documentation/timer/view/timer_page.dart';
 
 
 class App extends StatelessWidget {
@@ -14,7 +15,7 @@ class App extends StatelessWidget {
           secondary: Color.fromRGBO(72, 74, 126, 1),
         ),
       ),
-      home: Scaffold(),
+      home: const TimerPage(),
     );
   }
 }
